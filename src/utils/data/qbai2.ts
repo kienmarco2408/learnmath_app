@@ -1,7 +1,7 @@
 export default [
   {
     quesNum: '1',
-    imgQues: require('assets/images/b2a1.png'),
+    // imgQues: require('assets/images/b2a1.png'),
     ques: 'Led RGB có 4 chân, trong đó có:',
     choose: [
       'Tất cả đều là chân âm',

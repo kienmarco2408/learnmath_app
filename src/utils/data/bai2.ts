@@ -1,86 +1,64 @@
 export default [
   {
-    title: 'Mục tiêu bài học',
+    title: '4.	Phân số thập phân',
     contents: [
-      'Hiểu về nguyên lý hoạt đông của LED RGB và kết hợp kiến thức pha trộn màu (7 màu)',
-      'Sử dụng phần mềm lập trình kết hợp di chuyển robot với LED RGB',
-      'Nâng cao tư duy lập trình và kỹ năng làm việc theo nhóm',
+      'Các phân số có mẫu là 10; 100; 1000; … được gọi là phân số thập phân.',
+      'Một số phân số có thể viết thành phân số thập phân. ',
     ],
+    img: require('assets/images/b2a1.png'),
   },
   {
-    title: 'Module bài học',
+    title: '5.	Ôn tập các phép tính với phân số',
     contentWithImg: [
-      {
-        img: require('assets/images/b2a1.png'),
-        contents: [
-          'Các bạn có thắc mắc tín hiệu đền giao thông ở ngã tư hoạt động như thế nào không nhỉ? Robot chưa biết làm sao để tạo ra các màu, các bạn giúp Robot được không? Trước khi bắt đầu, chúng ta sẽ cùng xem cấu tạo và chân kết nối của đèn led RGB với mạch KcBot',
-          'Led RGB có 4 chân, trong đó có 1 chân âm (hoặc dương) chung và 3 chân dương (âm) riêng cho từng màu (R - red - đỏ, G - Green – Lục, B - Blue - Lam)',
-        ],
-      },
       {
         img: require('assets/images/b2a2.png'),
         contents: [
-          'Trong bài học này, chúng ta sẽ sử dụng board mở rộng để kết nối các chân của đèn led với mạch KcBot như hình bên trên',
+          'Muốn cộng (hoặc trừ) hai phân số:',
+        ],
+      },
+      {
+        img: require('assets/images/b2a3.png'),
+        contents: [
+          'Muốn nhân hai phân số, ta lấy tử số nhân với tử số, mẫu số nhân với mẫu số',
+          'Muốn chia hai phân số, ta lấy phân số thứ nhất nhân với nghịch đảo của phân số thứ hai'
         ],
       },
     ],
   },
   {
-    title: 'Lập trình',
+    title: '6.	Hỗn số',
     subcontents: [
       {
-        title: 'Các khối lập trình',
+        title: '',
         contentWithImg: [
           {
             img: require('assets/images/b2a3.png'),
-            contents: ['Bắt đầu một chương trình'],
+            contents: ['Hỗn số là một số bao gồm có cả phần nguyên là một số tự nhiên và phần phân số là một phân số bé hơn 1. '],
           },
           {
             img: require('assets/images/b2a4.png'),
             contents: [
-              'Điều khiển động cơ. Khi thay đổi thông số M1, M2 và tốc độ thì bánh xe sẽ thay đổi tốc độ và hướng di chuyển',
+              'Khi đọc (viết) hỗn số ta đọc (viết) phần nguyên trước rồi đọc (viết) phần phân số. ',
             ],
           },
+          {
+            img: require('assets/images/b2a4.png'),
+            contents: [
+              'Khi đọc (viết) hỗn số ta đọc (viết) phần nguyên trước rồi đọc (viết) phần phân số. ',
+            ],
+          },
+          
+        ],
+      },
+      {
+        title: '',
+        contentWithImg: [
           {
             img: require('assets/images/b2a5.png'),
             contents: [
-              'Đặt giá trị của một chân bất kì trên mạch một giá trị ở mức CAO hoặc mức THẤP',
-            ],
-          },
-          {
-            img: require('assets/images/b2a67.png'),
-            contents: [
-              'Chờ trong một khoảng thời gian xác định',
-              'Thực hiện lặp các câu lệnh bên trong nó mãi mãi',
-            ],
-          },
-        ],
-      },
-      {
-        title: 'Cấu trúc lập trình',
-        contentWithImg: [
-          {
-            img: require('assets/images/b2a8.png'),
-            contents: [
-              'Chương trình bắt đầu, kiểm tra kí tự nhận được. Khi nhận được kí tự đã được lập trình sẵn Robot sẽ thực hiện các chức năng',
-            ],
-          },
-        ],
-      },
-      {
-        title: 'Thực hành',
-        contentWithImg: [
-          {
-            img: require('assets/images/b2a9.png'),
-            contents: [
-              'Bắt đầu',
-              'Bật đèn màu đỏ',
-              'Chờ 1000 mili giây',
-              'Bật đèn xanh lục',
-              'Chờ 1000 mili giây',
-              'Bật đèn xanh lam',
-              'Chờ 1000 mili giây',
-              'Lặp lại từ câu lệnh đầu tiên',
+              'Có thể viết hỗn số thành một phân số có:',
+              'Tử số bằng tích của phần nguyên và mẫu số ở phần phân số cộng với tử số ở phần phân số.',
+              'Mẫu số bằng mẫu số ở phần phân số.',
             ],
           },
         ],

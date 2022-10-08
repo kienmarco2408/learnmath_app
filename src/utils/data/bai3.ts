@@ -1,79 +1,49 @@
 export default [
   {
-    title: 'Mục tiêu bài học',
+    title: '1.	Khái niệm số thập phân. Các hàng của số thập phân',
     contents: [
-      'Hiểu về nguyên lý hoạt đông của Còi báo  và lập trình cho Robot phát còi báo',
-      'Sử dụng phần mềm lập trình kết hợp di chuyển robot với LED RGB và còi báo',
+      'Phân số thập phân 1/10 có thể được viết thành 0,1. 0,1 là một số thập phân và được đọc là không phẩy một.',
+      'Phân số thập phân 1/100 có thể được viết thành 0,01. 0,01 là một số thập phân và được đọc là không phẩy không một.',
+      'Phân số thập phân 1/1000 có thể được viết thành 0,001. 0,001 là một số thập phân và được đọc là không phẩy không không một.',
     ],
+    img: require('assets/images/b3a1.png'),
   },
   {
-    title: 'Module bài học',
+    title: [
+      '2.	So sánh hai số thập phân',
+      'Khi so sánh các số thập phân, ta thực hiện các bước sau:',
+    ],
     contentWithImg: [
       {
         img: require('assets/images/b3a2.png'),
         contents: [
-          'Còi chíp (Buzzer) là một loại thiết bị phát thanh. Nó được sử dụng rộng rãi trong đồ chơi điện tử, quà tặng âm thanh, báo thức cá nhân, hệ thống báo động của ngân hàng và công an',
+          'So sánh phần nguyên hai số: số nào có phần nguyên lớn hơn thì số đó lớn hơn:',
         ],
       },
       {
-        img: require('assets/images/b3a2.png'),
-        contents: ['Đây là loại Còi chip loại 9,5x12mm 3V, 5V, 12V'],
+        img: require('assets/images/b3a3.png'),
+        contents: [
+          'Nếu phần nguyên bằng nhau thì so sánh phần thập phân bắt đầu từ hàng phần mười và cứ thế giảm dần, đến một hàng nào đó, chữ số tương ứng của số nào lớn hơn thì số đó lớn hơn:',
+        ],
+      },
+      {
+        img: '',
+        contents: [
+          'Nếu hai số có phần nguyên và phần thập phân bằng nhau thì hai số đó bằng nhau.',
+        ],
       },
     ],
   },
   {
-    title: 'Lập trình',
+    title:
+      '3.	Viết các số đo độ dài, khối lượng, diện tích dưới dạng số thập phân',
     subcontents: [
       {
-        title: 'Các khối lập trình',
+        title: '',
         contentWithImg: [
-          {
-            img: require('assets/images/b3a3.png'),
-            contents: [
-              'Điều khiển động cơ',
-              'Khi thay đổi thông số M1, M2 và tốc độ thì bánh xe sẽ thay đổi tốc độ và hướng di chuyển',
-            ],
-          },
           {
             img: require('assets/images/b3a4.png'),
-            contents: ['Xuất ra giá trị cao hoặc thấp tại một chân của robot'],
-          },
-          {
-            img: require('assets/images/b3a5.png'),
-            contents: ['Chờ trong một khoảng thời gian xác định'],
-          },
-          {
-            img: require('assets/images/b3a6.png'),
-            contents: ['Thực hiện lặp các câu lệnh bên trong nó mãi mãi'],
-          },
-        ],
-      },
-      {
-        title: 'Cấu trúc lập trình',
-        contentWithImg: [
-          {
-            img: require('assets/images/b3a7.png'),
-            contents: [
-              'Chương trình bắt đầu, kiểm tra kí tự nhận được. Khi nhận được kí tự đã được lập trình sẵn Robot sẽ thực hiện các chức năng',
-            ],
-          },
-        ],
-      },
-      {
-        title: 'Thực hành',
-        contentWithImg: [
-          {
-            img: require('assets/images/b3a8.png'),
-            contents: [
-              'Chân số 3, 4 và 5 điều khiển đèn led',
-              'Chân số 6 điều khiển còi chip',
-              'Đi tiến với tốc độ 150 chờ 2s, đèn và còi tắt',
-              'Đi tiến tốc độ 150, bật đèn led màu đỏ và bật còi, đợi 3s',
-              'Rẽ phải tốc độ 150, bật đèn led màu vàng và bật còi, đợi 1s',
-              'Xe đi tiến tốc độ 150, tắt đèn và tắt còi, đợi 2s',
-              'Xe dừng lại, đội 2s',
-              'Lặp lại quá trình trên',
-            ],
+            contents: [],
           },
         ],
       },

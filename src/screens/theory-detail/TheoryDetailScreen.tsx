@@ -69,7 +69,7 @@ const TheoryDetailScreen = (props: any) => {
         {/* Module -1 */}
         <Box>
           <Text bold fontSize={24}>
-            1. {partOne.title}
+            {partOne.title}
           </Text>
           {partOne.contents.map((item: any) => (
             <Box
@@ -90,19 +90,19 @@ const TheoryDetailScreen = (props: any) => {
         {/* Module - 2 */}
         <Box>
           <Text bold fontSize={24}>
-            2. {partTwo.title}
+            {partTwo.title}
           </Text>
           {renderImgWithContent(partTwo.contentWithImg)}
         </Box>
         {/* Module - 3*/}
         <Box>
           <Text bold fontSize={24}>
-            3. {partThree.title}
+            {partThree.title}
           </Text>
           {partThree.subcontents.map((content: any, index: number) => (
             <Box key={content.title}>
               <Text bold fontSize={20}>
-                3.{index + 1}. {content.title}
+                {content.title}
               </Text>
               {renderImgWithContent(content.contentWithImg)}
             </Box>

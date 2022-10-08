@@ -1,19 +1,19 @@
 export const TOPIC = [
   {
     file: 'bai1',
-    title: 'Ôn tập và bổ sung về phân số',
+    title: 'Ôn tập và bổ sung về phân số phần 1',
   },
   {
     file: 'bai2',
-    title: 'Ôn tập giải toán liên quan đến tỉ lệ',
+    title: 'Ôn tập và bổ sung về phân số phần 2',
   },
   {
     file: 'bai3',
-    title: 'Bảng đơn vị đo độ dài, khối lượng, diện tích',
+    title: 'Số thập phân. Các phép toán với số thập phân phần 1',
   },
   {
     file: 'bai4',
-    title: 'Khái niệm số thập phân. Các hàng của số thập phân. So sánh hai số thập phân',
+    title: 'Số thập phân. Các phép toán với số thập phân phần 2',
   },
   {
     file: 'bai5',
@@ -33,10 +33,8 @@ export const TOPIC = [
   },
   {
     file: 'bai9',
-    title:'Số đo thời gian. Toán chuyển động đều'
-  }
-
-
+    title: 'Số đo thời gian. Toán chuyển động đều',
+  },
 ];
 
 export const listImages = [];

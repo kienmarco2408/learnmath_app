@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Khái niệm về phân số',
+    title: '1. Khái niệm về phân số',
     contents: [
       'Phân số là kết quả của một phép chia một số tự nhiên cho một số tự nhiên khác 0.',
       'Ví dụ: '
@@ -8,7 +8,7 @@ export default [
     img: require('assets/images/b1a1.png'),
   },
   {
-    title: 'Tính chất cơ bản của phân số',
+    title: '2. Tính chất cơ bản của phân số',
     contentWithImg: [
       {
         img: require('assets/images/b1a3.png'),
@@ -30,10 +30,10 @@ export default [
     ],
   },
   {
-    title: 'So sánh hai phân số',
+    title: '3. So sánh hai phân số',
     subcontents: [
       {
-        title: 'So sánh hai phân số cùng mẫu số',
+        title: 'a) So sánh hai phân số cùng mẫu số',
         contentWithImg: [
           {
             img: require('assets/images/b1a5.png'),
@@ -45,7 +45,7 @@ export default [
         ],
       },
       {
-        title: 'So sánh hai phân số cùng mẫu số',
+        title: 'b) So sánh hai phân số cùng mẫu số.',
         contentWithImg: [
           {
             img: require('assets/images/b1a6.png'),
@@ -54,26 +54,6 @@ export default [
               'Bước 2: So sánh các tử số như đã nói ở trên.',
             ],
           },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Phân số thập phân',
-    contentWithImg: [
-      {
-        img: require('assets/images/b1a3.png'),
-        contents: [
-          'Các phân số có mẫu là 10; 100; 1000; … được gọi là phân số thập phân.',
-          'Một số phân số có thể viết thành phân số thập phân.',
-        ],
-      },
-      {
-        img: require('assets/images/b1a4.png'),
-        img2: '',
-        contents: [
-          'Ứng dụng:',
-          'Quy đồng mẫu số',
         ],
       },
     ],

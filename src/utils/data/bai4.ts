@@ -1,22 +1,21 @@
 export default [
   {
-    title: 'Mục tiêu bài học',
+    title: '4. Phép cộng và phép trừ các số thập phân',
     contents: [
-      'Hiểu và sử dụng được cảm biến sóng siêu âm SRF04',
-      'Nắm được các tính năng và cách dùng của các khối điều khiển các khối',
+      'Phép cộng và phép trừ các số thập phân được thực hiện như các số tự nhiên.',
+      'Lưu ý: Khi đặt tính và tính, dấu phẩy của các số hạng (số bị trừ và số trừ) và của tổng (hiệu) phải thẳng hàng.',
     ],
+    img: require('assets/images/b4a1.png'),
   },
   {
-    title: 'Module bài học',
+    title: '5. Phép nhân các số thập phân',
     contentWithImg: [
       {
         img: require('assets/images/b4a1.png'),
         contents: [
-          'Cảm biến siêu âm HC-SR04',
-          'Nguồn cung cấp: 5V DC',
-          'Dòng điện: 30mA. Tần số hoạt động: 40KHz',
-          'Khoảng cách lớn nhất đo được: 6m. Khoảng cách nhỏ nhất đo được: 2cm',
-          'Kích thước module: 45x20mm',
+          'Phép nhân các số thập phân được thực hiện như sau:',
+          'Bước 1: Nhân như nhân các số tự nhiên.',
+          'Bước 2: Đếm xem trong phần thập phân của cả hai thừa số có tổng cộng bao nhiêu chữ số (phần thập phân của số tự nhiên có 0 chữ số) rồi dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số từ phải sang trái.',
         ],
       },
       {
