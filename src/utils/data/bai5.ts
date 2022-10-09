@@ -1,86 +1,54 @@
 export default [
   {
-    title: 'Mục tiêu bài học',
+    title: '1.	Tam giác',
     contents: [
-      'Hiểu và sử dụng được cảm biến sóng siêu âm SRF04',
-      'Nắm được các tính năng và cách dùng của các khối điều khiển các khối',
+      'Diện tích của một tam giác bằng độ dài đáy nhân chiều cao rồi chia 2:',
     ],
+    img: require('assets/images/b5a1.png'),
   },
   {
-    title: 'Module bài học',
+    title: '2.	Hình thang',
     contentWithImg: [
       {
-        img: require('assets/images/b4a1.png'),
-        contents: [
-          'Cảm biến siêu âm HC-SR04',
-          'Nguồn cung cấp: 5V DC',
-          'Dòng điện: 30mA. Tần số hoạt động: 40KHz',
-          'Khoảng cách lớn nhất đo được: 6m. Khoảng cách nhỏ nhất đo được: 2cm',
-          'Kích thước module: 45x20mm',
-        ],
+        img: require('assets/images/b5a2.png'),
+        contents: ['Hình thang là một tứ giác có một cặp cạnh song song:'],
       },
       {
-        img: require('assets/images/b4a2.png'),
+        img: require('assets/images/b5a3.png'),
         contents: [
-          'Cảm biến siêu âm hoạt động bằng cách phát đi một xung tín hiệu và đo thời gian nhận được tín hiệu trở vể. Sau khi đo được tín hiệu trở về trên cảm biến siêu âm, ta tính được thời gian từ lúc phát đến lúc nhận được tín hiệu. Từ thời gian này có thể tính ra được khoảng cách',
-          'Nếu đo được chính xác thời gian và không có nhiễu, mạch cảm biến siêu âm trả về kết quả cực kì chính xác. Điều này phụ thuộc vào cách viết chương trình không sử dụng các hàm đợi.',
+          'Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao rồi chia 2:',
         ],
       },
     ],
   },
   {
-    title: 'Lập trình',
+    title: '3.	Hình tròn',
     subcontents: [
       {
-        title: 'Các khối lập trình',
+        title: '',
         contentWithImg: [
           {
-            img: require('assets/images/b4a3.png'),
+            img: require('assets/images/b5a4.png'),
             contents: [
-              'Điều khiển động cơ',
-              'Khi thay đổi thông số M1, M2 và tốc độ thì bánh xe sẽ thay đổi tốc độ và hướng di chuyển',
+              'Nối tâm O với một điểm A trên đường tròn. Đọan thẳng OA được gọi là bán kính của hình tròn. Tất cả các bán kính của một đường tròn đều bằng nhau:',
             ],
           },
           {
-            img: require('assets/images/b4a4.png'),
-            contents: ['Chờ trong 1 khoảng thời gian xác định'],
-          },
-          {
-            img: require('assets/images/b4a56.png'),
+            img: require('assets/images/b5a5.png'),
             contents: [
-              'Cấu lệnh được dùng trong phép so sánh >, <, =',
-              'Là khối lệnh điều kiện, nếu đúng sẽ thực hiện khối lệnh phía trên. Còn nếu sai sẽ thự hiện khối lệnh phía dưới',
+              'Đoạn thẳng nối hai điểm M, N bất kì trên đường tròn và đi qua tâm O được gọi là đường kính của hình tròn. Trong một hình tròn, độ dài đường kính gấp hai lần bán kính.',
             ],
           },
           {
-            img: require('assets/images/b4a78.png'),
+            img: require('assets/images/b5a6.png'),
             contents: [
-              'Câu lệnh để đọc khoảng cách với cảm biến siêu âm, giá trị trả lại chính là giá trị khoảng cách',
-              'Thực hiện lặp các câu lệnh bên trong nó mãi mãi',
+              'Chu vi của một đường tròn bằng độ dài đường kính nhân với 3,14 (hoặc hai lần độ dài bán kính nhân với 3,14):',
             ],
           },
-        ],
-      },
-      {
-        title: 'Cấu trúc lập trình',
-        contentWithImg: [
           {
-            img: require('assets/images/b4a9.png'),
+            img: require('assets/images/b5a7.png'),
             contents: [
-              'Chương trình bắt đầu, kiểm tra kí tự nhận được. Khi nhận được kí tự đã được lập trình sẵn Robot sẽ thực hiện các chức năng',
-            ],
-          },
-        ],
-      },
-      {
-        title: 'Thực hành',
-        contentWithImg: [
-          {
-            img: require('assets/images/b4a10.png'),
-            contents: [
-              'Chương trình bắt đầu',
-              'Nếu khoảng cách lớn hơn 25cm thì cho Robot đi tiến với tốc độ 100',
-              'Lặp lại quá trình trên',
+              'Diện tích của một hình tròn bằng độ dài bán kính nhân với chính nó rồi nhân bới 3,14:',
             ],
           },
         ],

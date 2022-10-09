@@ -27,7 +27,7 @@ export default [
         ],
       },
       {
-        img: '',
+        img: require('assets/images/b3a4.png'),
         contents: [
           'Nếu hai số có phần nguyên và phần thập phân bằng nhau thì hai số đó bằng nhau.',
         ],
@@ -39,10 +39,9 @@ export default [
       '3.	Viết các số đo độ dài, khối lượng, diện tích dưới dạng số thập phân',
     subcontents: [
       {
-        title: '',
         contentWithImg: [
           {
-            img: require('assets/images/b3a4.png'),
+            img: require('assets/images/b3a5.png'),
             contents: [],
           },
         ],

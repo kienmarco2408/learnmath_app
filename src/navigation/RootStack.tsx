@@ -4,7 +4,6 @@ import {
 } from '@react-navigation/native-stack';
 import React from 'react';
 import HomeScreen from 'screens/home/HomeScreen';
-import PracticeDetailScreen from 'screens/practice-detail/PracticeDetailScreen';
 import QuestionScreen from 'screens/question/QuestionScreen';
 import QuizScreen from 'screens/quiz/QuizScreen';
 import ResultScreen from 'screens/result/ResultScreen';
@@ -42,7 +41,7 @@ const RootStack = (props: Props) => {
       <Stack.Screen name="TheoryDetailScreen" component={TheoryDetailScreen} />
       <Stack.Screen name="QuizScreen" component={QuizScreen} />
       <Stack.Screen name="ResultScreen" component={ResultScreen} />
-      <Stack.Screen name="PracticeDetailScreen" component={PracticeDetailScreen} />
+
     </Stack.Navigator>
   );
 };

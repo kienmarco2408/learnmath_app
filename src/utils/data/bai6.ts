@@ -1,86 +1,49 @@
 export default [
   {
-    title: 'Mục tiêu bài học',
+    title: '4.	Biểu đồ hình quạt',
     contents: [
-      'Hiểu và sử dụng được cảm biến sóng siêu âm SRF04',
-      'Nắm được các tính năng và cách dùng của các khối điều khiển các khối',
+      'Biểu đồ hình quạt là một loại biểu đồ dùng để thể hiện tỉ số phần trăm:',
     ],
+    img: require('assets/images/b6a1.png'),
   },
   {
-    title: 'Module bài học',
+    title: '5.	Hình hộp chữ nhật. Hình lập phương.',
     contentWithImg: [
       {
-        img: require('assets/images/b4a1.png'),
+        img: require('assets/images/b6a2.png'),
         contents: [
-          'Cảm biến siêu âm HC-SR04',
-          'Nguồn cung cấp: 5V DC',
-          'Dòng điện: 30mA. Tần số hoạt động: 40KHz',
-          'Khoảng cách lớn nhất đo được: 6m. Khoảng cách nhỏ nhất đo được: 2cm',
-          'Kích thước module: 45x20mm',
+          'Hình hộp chữ nhật có sáu mặt là các hình chữ nhật, trong đó các mặt đối diện nhau là các hình chữ nhật bằng nhau.',
+          'Đối với hình hộp chữ nhật:',
+          '-	Diện tích xung quanh bằng chu vi đáy nhân với chiều cao (cùng đơn vị đo).',
+          '-	Diện tích toàn phần bằng diện tích xung quanh cộng với diện tích hai đáy.',
         ],
       },
       {
-        img: require('assets/images/b4a2.png'),
+        img: require('assets/images/b6a3.png'),
         contents: [
-          'Cảm biến siêu âm hoạt động bằng cách phát đi một xung tín hiệu và đo thời gian nhận được tín hiệu trở vể. Sau khi đo được tín hiệu trở về trên cảm biến siêu âm, ta tính được thời gian từ lúc phát đến lúc nhận được tín hiệu. Từ thời gian này có thể tính ra được khoảng cách',
-          'Nếu đo được chính xác thời gian và không có nhiễu, mạch cảm biến siêu âm trả về kết quả cực kì chính xác. Điều này phụ thuộc vào cách viết chương trình không sử dụng các hàm đợi.',
+          'Hình lập phương là hình hộp chữ nhật có sáu mặt là các hình vuông bằng nhau',
+          'Đối với hình lập phương:',
+          '-	Diện tích xung quanh bằng diện tích một mặt nhân với 4.',
+          '-	Diện tích toàn phần bằng diện tích toàn phần nhân với 6.',
         ],
       },
     ],
   },
   {
-    title: 'Lập trình',
+    title: '6.	Thể tích',
     subcontents: [
       {
-        title: 'Các khối lập trình',
+        title: '',
         contentWithImg: [
           {
-            img: require('assets/images/b4a3.png'),
+            img: require('assets/images/b6a4.png'),
             contents: [
-              'Điều khiển động cơ',
-              'Khi thay đổi thông số M1, M2 và tốc độ thì bánh xe sẽ thay đổi tốc độ và hướng di chuyển',
+              'Để đo thể tích người ta dùng các đơn vị: xăng-ti-mét khối (cm3), đề-xi-mét khối (dm3), mét khối (m3) và lít (l).',
             ],
           },
           {
-            img: require('assets/images/b4a4.png'),
-            contents: ['Chờ trong 1 khoảng thời gian xác định'],
-          },
-          {
-            img: require('assets/images/b4a56.png'),
             contents: [
-              'Cấu lệnh được dùng trong phép so sánh >, <, =',
-              'Là khối lệnh điều kiện, nếu đúng sẽ thực hiện khối lệnh phía trên. Còn nếu sai sẽ thự hiện khối lệnh phía dưới',
-            ],
-          },
-          {
-            img: require('assets/images/b4a78.png'),
-            contents: [
-              'Câu lệnh để đọc khoảng cách với cảm biến siêu âm, giá trị trả lại chính là giá trị khoảng cách',
-              'Thực hiện lặp các câu lệnh bên trong nó mãi mãi',
-            ],
-          },
-        ],
-      },
-      {
-        title: 'Cấu trúc lập trình',
-        contentWithImg: [
-          {
-            img: require('assets/images/b4a9.png'),
-            contents: [
-              'Chương trình bắt đầu, kiểm tra kí tự nhận được. Khi nhận được kí tự đã được lập trình sẵn Robot sẽ thực hiện các chức năng',
-            ],
-          },
-        ],
-      },
-      {
-        title: 'Thực hành',
-        contentWithImg: [
-          {
-            img: require('assets/images/b4a10.png'),
-            contents: [
-              'Chương trình bắt đầu',
-              'Nếu khoảng cách lớn hơn 25cm thì cho Robot đi tiến với tốc độ 100',
-              'Lặp lại quá trình trên',
+              'Thể tích của một hình hộp chữ nhật bằng chiều dài nhân với chiều rộng rồi nhân với chiều cao (cùng một đơn vị đo).',
             ],
           },
         ],

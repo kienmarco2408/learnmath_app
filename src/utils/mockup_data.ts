@@ -17,22 +17,14 @@ export const TOPIC = [
   },
   {
     file: 'bai5',
-    title: 'Phép cộng và phép trừ các số thập phân',
+    title: 'Hình học phần 1',
   },
   {
     file: 'bai6',
-    title: 'Phép nhân các số thập phân',
+    title: 'Hình học phần 2',
   },
   {
     file: 'bai7',
-    title: 'Phép chia các số thập phân',
-  },
-  {
-    file: 'bai8',
-    title: 'Hình học',
-  },
-  {
-    file: 'bai9',
     title: 'Số đo thời gian. Toán chuyển động đều',
   },
 ];

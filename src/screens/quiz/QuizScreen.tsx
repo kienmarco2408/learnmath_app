@@ -9,6 +9,10 @@ import bai1 from 'utils/data/qbai1';
 import bai2 from 'utils/data/qbai2';
 import bai3 from 'utils/data/qbai3';
 import bai4 from 'utils/data/qbai4';
+import bai5 from 'utils/data/qbai5';
+import bai6 from 'utils/data/qbai6';
+import bai7 from 'utils/data/qbai4';
+
 
 
 const qbaihoc: any = {
@@ -16,6 +20,9 @@ const qbaihoc: any = {
   bai2,
   bai3,
   bai4,
+  bai5,
+  bai6,
+  bai7,
 };
 
 const QuizScreen = () => {
@@ -27,6 +34,7 @@ const QuizScreen = () => {
     '2': '',
     '3': '',
     '4': '',
+    '5': '',
   });
 
   const submitQuiz = () => {

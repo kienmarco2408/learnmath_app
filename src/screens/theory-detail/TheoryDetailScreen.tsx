@@ -1,13 +1,17 @@
 import Header from 'components/Header';
-import { Box, FlatList, Icon, Image, ScrollView, Text } from 'native-base';
+import { Box, FlatList, Icon, ScrollView, Text } from 'native-base';
 import React, { useEffect, useState } from 'react';
-import { Dimensions, ImageBackground, StyleSheet } from 'react-native';
+import { Dimensions, ImageBackground, StyleSheet, Image, } from 'react-native';
 import { useRoute } from '@react-navigation/native';
 import { Entypo } from '@expo/vector-icons';
 import bai1 from 'utils/data/bai1';
 import bai2 from 'utils/data/bai2';
 import bai3 from 'utils/data/bai3';
 import bai4 from 'utils/data/bai4';
+import bai5 from 'utils/data/bai5';
+import bai6 from 'utils/data/bai6';
+import bai7 from 'utils/data/bai7';
+
 
 
 const renderImgWithContent = (listData: any) => {
@@ -29,11 +33,12 @@ const renderImgWithContent = (listData: any) => {
               </Text>
             </Box>
           ))}
+          <Box>
           <Image
             source={item.img}
-            alt="lmao"
             style={{ width: '100%', height: 250, resizeMode:'contain' }}
           />
+          </Box>
         </Box>
       ))}
     </>
@@ -45,6 +50,9 @@ const baihoc: any = {
   bai2,
   bai3,
   bai4,
+  bai5,
+  bai6,
+  bai7,
 
 };
 const TheoryDetailScreen = (props: any) => {

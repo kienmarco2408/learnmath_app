@@ -56,8 +56,8 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   imageStyle: {
-    height: 120,
-    width: '80%',
+    height: 200,
+    width: '90%',
   },
   btnStyle: {
     backgroundColor: color.light_red,
