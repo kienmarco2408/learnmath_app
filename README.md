@@ -8,7 +8,7 @@
 
 ## Step 2: Access the project directory
 
-- `cd expo-learningApp`
+- `cd math_app`
 
 ## Step 3: Install dependencies
 
