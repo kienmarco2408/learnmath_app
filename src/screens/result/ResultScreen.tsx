@@ -10,6 +10,7 @@ import bai3 from 'utils/data/qbai3';
 import bai4 from 'utils/data/qbai4';
 import bai5 from 'utils/data/qbai5';
 import bai6 from 'utils/data/qbai6';
+import bai7 from 'utils/data/qbai7';
 import { evaluateSentence } from 'utils/mockup_data';
 
 const qbaihoc: any = {
@@ -19,6 +20,7 @@ const qbaihoc: any = {
   bai4,
   bai5,
   bai6,
+  bai7
 };
 
 const ResultScreen = () => {
